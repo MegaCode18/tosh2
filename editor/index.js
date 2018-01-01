@@ -20,7 +20,7 @@ require("codemirror/keymap/emacs")
 
 const nearley = require("nearley")
 const generate = require("./reverse")
-const grammar = nearley.Grammar.fromCompiled(require("./grammar"))
+const grammar = nearley.Grammar.fromCompiled(require("../grammar"))
 const measure = require("../measure")
 const Scratch = require("../scratch")
 const mode = require("./mode")
